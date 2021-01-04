@@ -1,0 +1,26 @@
+
+******************************    Understanding the JRE System Library in Eclipse IDE   ************************************
+                                  ===================================================
+
+JRE System Library is added by Eclipse IDE automatically on creating Java Projects. JRE System Library implements the Java API in 
+Eclipse IDE. So all the predefined functions of Java, can be accessed by the Java Programs written in Eclipse IDE because of this 
+JRE System Library.
+
+We can create programs in different programming language in Eclipse IDE. In case,when you want to create Python Programs in Eclipse 
+IDE, you need to find the Library files of Python language and import them into Eclipse IDE before creating them. In this case, the 
+Library files of Python Language can be called as External Library.
+
+
+What are .jar Files ?
+====================
+
+JAR means Java ARchive.
+So JAR files are fundamentally archive files, build on ZIP file format, typically used to collect many Java Class files and have the 
+.jar file extension.
+
+So in order to use the Classes of Java containing predefined functions, all the Classes of Java are grouped into .jar files. And all 
+the .jar files of Java are collected in one library i.e. JRE System Library. When any Java Project in Eclipse IDE uses this JRE System 
+Library, it will have access to all the predefined function of Java.
+
+
+

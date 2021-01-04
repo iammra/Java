@@ -1,0 +1,36 @@
+
+************************************** Commonly used keyboard shortcuts ***************************************
+                                       ================================
+
+>>   Ctrl + Shift + T : for finding class even from jar 
+ 
+>>   Ctrl + Shift + R : for finding any resource (file), including config XML files 
+  
+>>   Ctrl + 1 : for quick fix 
+  
+>>   Ctrl + Shift + o : for organize imports 
+  
+>>   Alt + right and Alt + left for going back and forth while editing 
+  
+>>   Ctrl + Shift + Up and down for navigating from member to member (variables and methods) 
+  
+>>   Ctrl + / for commenting, uncommenting lines and blocks 
+  
+>>   Ctrl + Shift + / for commenting, uncommenting lines with block comment 
+  
+>>   Ctrl + F4 or Ctrl + w for closing current file
+  
+>>   Ctrl+Shift+W for closing all files 
+  
+>>   Ctrl + l go to line Select text and press
+  
+>>   Ctrl + Shift + F for formatting 
+  
+>>   Ctrl + F for find, find/replace 
+  
+>>   Ctrl + D to delete a line 
+  
+>>   Alt + Shift + j to add Javadoc at any place in Java source file
+  
+>>   Ctrl + Shift + L to view the listing for all Eclipse keyboard shortcuts
+  

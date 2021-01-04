@@ -1,0 +1,56 @@
+********************************  What do you look for when you’re reviewing someone else’s code?  *****************************
+                                  ==============================================================
+                                  
+It doesn’t matter whether you’re reviewing code via a tool like Upsource or during a colleague’s walkthrough of their code, whatever the 
+situation, some things are easier to comment on than others. Some examples:
+
+>> Formatting: Where are the spaces and line breaks? Are they using tabs or spaces? How are the curly braces laid out?
+   ==========
+>> Style: Are the variables/parameters declared as final? Are method variables defined close to the code where they’re used or at the start 
+   =====
+   of the method?
+
+>> Naming: Do the field/constant/variable/param/class names conform to standards? Are the names overly short?
+   =======
+>> Test coverage: Is there a test for this code?
+   =============
+   
+These are all valid things to check – you want to minimise context switching between different areas of code and reduce cognitive load, 
+so the more consistent your code looks, the better.
+
+However, having humans looking for these is probably not the best use of time and resources in your organisation, as many of these checks 
+can be automated. There are plenty of tools that can ensure that your code is consistently formatted, that standards around naming and the 
+use of the final keyword are followed.
+?????????????????????????????????????
+
+
+**************************************************    What should you look for?    ************************************************
+What sort of things are humans really good for? What can we spot in a code review that we can’t delegate to a tool?
+
+It turns out there’s a surprisingly large number of things. 
+
+Design
+======
+How does the new code fit with the overall architecture?
+Does the code follow SOLID principles, Domain Driven Design and/or other design paradigms the team favours?
+What design patterns are used in the new code? Are these appropriate?
+Is the code in the right place? For example, if the code is related to Orders, is it in the Order Service?
+Could the new code have reused something in the existing code? Does the new code provide something we can reuse in the existing code?
+Does the new code introduce duplication?
+
+
+Readability & Maintainability
+=============================
+Do the names (of fields, variables, parameters, methods and classes) actually reflect the thing they represent?
+Can I understand what the code does by reading it?
+Can I understand what the tests do?
+Do the tests cover a good subset of cases? Do they cover happy paths and exceptional cases? Are there cases that haven’t been considered?
+Are the exception error messages understandable?
+Are confusing sections of code either documented, commented, or covered by understandable tests (according to team preference)?
+
+
+Functionality
+=============
+Does the code actually do what it was supposed to do? If there are automated tests to ensure correctness of the code, do the tests really test the code meets the agreed requirements?
+Does the code look like it contains subtle bugs, like using the wrong variable for a check, or accidentally using an and instead of an or?
+
