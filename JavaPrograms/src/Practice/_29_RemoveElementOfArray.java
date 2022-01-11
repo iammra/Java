@@ -2,7 +2,7 @@ package Practice;
 
 import java.util.Arrays;
 
-public class _029_RemoveElementOfArray {
+public class _29_RemoveElementOfArray {
 
 	public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package Practice;
 import java.util.HashSet;
 import java.util.Set;
 
-public class _025_RemoveDuplicates {
+public class _30_RemoveDuplicates {
 
 	public static void main(String[] args) {
 		int arr[] = { 3, 5, 6, 3, 1 };
